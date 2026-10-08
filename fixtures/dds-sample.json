@@ -1,0 +1,76 @@
+{
+  "id": "root",
+  "name": "Login Page",
+  "type": "frame",
+  "x": 0,
+  "y": 0,
+  "width": 390,
+  "height": 844,
+  "backgroundColor": "#ffffff",
+  "children": [
+    {
+      "id": "title",
+      "name": "Welcome",
+      "type": "text",
+      "x": 32,
+      "y": 96,
+      "width": 180,
+      "height": 36,
+      "text": "Welcome",
+      "fontSize": 28,
+      "fontWeight": 700,
+      "color": "#111827"
+    },
+    {
+      "id": "card",
+      "name": "Form Card",
+      "type": "group",
+      "x": 24,
+      "y": 180,
+      "width": 342,
+      "height": 220,
+      "fill": "#f9fafb",
+      "cornerRadius": 16,
+      "boxShadow": "0 8px 24px rgba(15, 23, 42, 0.12)",
+      "children": [
+        {
+          "id": "input",
+          "name": "Email Input",
+          "type": "shape",
+          "x": 48,
+          "y": 216,
+          "width": 294,
+          "height": 48,
+          "fill": "#ffffff",
+          "cornerRadius": 10,
+          "stroke": "#e5e7eb"
+        },
+        {
+          "id": "button",
+          "name": "Primary Button",
+          "type": "shape",
+          "x": 48,
+          "y": 288,
+          "width": 294,
+          "height": 52,
+          "fill": "#2563eb",
+          "cornerRadius": 12
+        },
+        {
+          "id": "button-text",
+          "name": "Button Text",
+          "type": "text",
+          "x": 168,
+          "y": 304,
+          "width": 54,
+          "height": 20,
+          "text": "Login",
+          "fontSize": 16,
+          "fontWeight": 600,
+          "color": "#ffffff"
+        }
+      ]
+    }
+  ]
+}
+

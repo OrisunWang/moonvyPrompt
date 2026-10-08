@@ -1,0 +1,14 @@
+{
+  "genomeVer": 1.9,
+  "meta": { "designRatio": 1 },
+  "images": { "icon-png": { "url": "https://cdn.example/icon.png", "width": 72, "height": 66 } },
+  "pages": [{ "id": "page", "name": "Home", "type": "frame", "isFrame": true, "rect": { "x": 200, "y": 500, "w": 375, "h": 812 }, "fills": [{ "color": { "r": 250, "g": 250, "b": 250, "alpha": 1 } }], "children": [
+    { "id": "card", "name": "卡片", "type": "frame", "isFrame": true, "rect": { "x": 20, "y": 80, "w": 160, "h": 180 }, "borderRadius": [12, 12, 10, 10], "children": [
+      { "id": "group", "name": "内容", "type": "group", "rect": { "x": 8, "y": 8, "w": 140, "h": 160 }, "children": [
+        { "id": "title", "name": "标题", "type": "text", "rect": { "x": 16, "y": 120, "w": 120, "h": 22 }, "textbox": { "text": "姥姥家的空调", "align": "center", "segments": [{ "fontName": { "family": "PingFang SC" }, "fontSize": 16, "fontWeight": 500, "lineHeight": 22, "fills": [{ "color": { "r": 0, "g": 0, "b": 0, "alpha": 0.8 } }] }] } },
+        { "id": "icon", "name": "空调", "type": "layer", "rect": { "x": 32, "y": 20, "w": 24, "h": 22 }, "slices": { "max": { "id": "icon-png", "ratio": 3 } } }
+      ] }
+    ] },
+    { "id": "hidden", "name": "隐藏", "visible": false, "rect": { "x": 0, "y": 0, "w": 10, "h": 10 } }
+  ] }]
+}

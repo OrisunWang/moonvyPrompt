@@ -1,0 +1,14 @@
+node_modules/
+.DS_Store
+dist/
+.env
+.env.local
+.env.local.save
+.moonvy.local/
+output/
+coverage/
+*.log
+
+*.har
+.env.*
+!.env.example
