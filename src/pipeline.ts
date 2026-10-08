@@ -54,4 +54,3 @@ export async function runPipeline(url: string, outDir: string, envFile?: string,
   files.push({ path: manifestFile.path, type: "manifest", bytes: manifestFile.bytes, status: manifestFile.status });
   return { bundle, document: tree.document, files };
 }
-

@@ -52,4 +52,3 @@ export function normalizeError(error: unknown): MoonvyUiPromptError {
   }
   return new MoonvyUiPromptError("INTERNAL_ERROR", "Unknown internal error", "fatal", 1, "Run the command again with a smaller fixture.");
 }
-

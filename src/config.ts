@@ -68,4 +68,3 @@ export function parseCliOptions(args: string[]): { options: CliOptions; position
   }
   return { options, positionals };
 }
-

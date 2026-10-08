@@ -59,4 +59,3 @@ export async function fileSize(path: string): Promise<number> {
     return 0;
   }
 }
-
